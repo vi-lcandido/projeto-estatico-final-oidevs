@@ -1,3 +1,84 @@
-h1 {
-  color: blueviolet;
-}
+:root{
+    --branco: #FFFFFF;
+    --vermelho-escuro: #522423;
+    --vermleho-claro: #7e1519;
+    --cor-de-fundo-header: #26351d;
+    --cor-de-fundo-body: #506b40;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        background-color: var(--cor-de-fundo-header);
+        padding: 20px 0;
+        
+    }
+
+    .caixa{
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    nav{
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        
+    }
+    nav li{
+        display: inline-block;
+        margin: 15px;
+        
+    }
+
+    nav a{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: var(--branco);
+        text-decoration: none;
+        
+    }
+
+    a:hover{
+        background-color: var(--vermelho-escuro);
+        padding: 5px;
+    }
+    .agenda{
+        padding: 20px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        background-color: var(--branco);
+        background-image: url("./img/_verde.png");
+    }
+    
+    .alinhamento-agenda li {
+        display: inline-block;
+        margin: 15px;
+        
+    }
+
+    .contato{
+        background-color: var(--branco); 
+        padding: 20px 10px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .footer{
+        background-color: var(--cor-de-fundo-body); 
+        padding: 40px 10px 20px;
+        width: 100%;
+        font-weight: 10px;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+       
+    }
