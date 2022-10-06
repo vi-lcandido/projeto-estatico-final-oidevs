@@ -14,18 +14,15 @@ html {
 
 /*------------ NavBar-----------------*/
 
+.nav-link#home, .nav-link#services, .nav-link#projects, .nav-link#contact, .nav-link#gallery, .nav-link#profile {
+  color: var(--text-primary) !important;
+  text-decoration: underline;
+}
+
 .btn.btn-default {
   background-color: var(--text-primary);
   border: 1px solid var(--text-primary);
   color: var(--text-hl);
-}
-
-.nav-item .btn.btn-second, .nav-item .btn.btn-default {
-  margin-left: 15px;
-}
-
-.nav-item .btn.btn-default {
-  margin-top: 8px;
 }
 
 .btn.btn-default:hover {
@@ -50,18 +47,21 @@ html {
   text-decoration: underline;
 }
 
-.navbar>.container-fluid {
-  padding: 0 20px;
+nav.bg-light {
+  background-color: var(--default-bg)!important;
 }
 
 @media (min-width: 992px) {
   .nav-item .btn.btn-default {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
 
   .navbar>.container-fluid {
-  padding: 0 40px;
+    padding: 0 40px;
+    justify-content: end !important;
   }
 }
+
+/* -------- Fim da Navbar -------- */
 
 
