@@ -91,7 +91,30 @@ h1 span {
 
 main {
   grid-area: content;
-  min-height: 100vh;
+  min-height: 150vh;
+}
+
+section i {
+  color: var(--text-primary);
+}
+
+#carrousel {
+  height: 210px !important;
+}
+
+.profissional {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profissional img {
+  width: 135px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 footer {
