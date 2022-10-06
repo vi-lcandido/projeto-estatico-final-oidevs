@@ -8,11 +8,36 @@
   --bs-font-sans-serif: 'Poppins', sans-serif !important;
 }
 
-html {
-  background-color: var(--default-bg);
+body {
+  background-color: var(--default-bg)!important;
+  grid-template-columns: 100%;
+  grid-template-rows: 60px auto 90px;
+  grid-template-areas:
+  "header"
+  "content"
+  "footer";
+}
+
+body, a, button, textarea, input {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 14px !important;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
 }
 
 /*------------ NavBar-----------------*/
+
+nav.bg-light {
+  background-color: var(--default-bg)!important;
+}
+
+nav {
+  min-height: 60px;
+  grid-area: header;
+}
 
 .nav-link#home, .nav-link#services, .nav-link#projects, .nav-link#contact, .nav-link#gallery, .nav-link#profile {
   color: var(--text-primary) !important;
@@ -47,10 +72,6 @@ html {
   text-decoration: underline;
 }
 
-nav.bg-light {
-  background-color: var(--default-bg)!important;
-}
-
 @media (min-width: 992px) {
   .nav-item .btn.btn-default {
     margin-top: 0px !important;
@@ -64,4 +85,29 @@ nav.bg-light {
 
 /* -------- Fim da Navbar -------- */
 
+h1 span {
+  color: var(--text-primary);
+}
+
+main {
+  grid-area: content;
+  min-height: 100vh;
+}
+
+footer {
+  grid-area: footer;
+  background-color: var(--text-primary);
+  color: var(--text-hl);
+}
+
+footer a {
+  color: var(--text-hl);
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  body, a, button, textarea, input {
+    font-size: 16px !important;
+  }
+}
 

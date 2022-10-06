@@ -9,13 +9,14 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light" id="nav">
         <div class="container-fluid mx-4">
           <a class="navbar-brand" href="#">
             <img src="./img/logo.svg" alt="">
@@ -47,7 +48,40 @@
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
+    <main class="containter mx-4 d-flex flex-column justify-content-center">
+      <section class="container d-flex flex-column align-items-center gap-2">
+        <h1 class="fw-bold">Onde a <span class="text-decoration-underline">criatividade</span>  acontece<span>.</span></h1>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="imgs mw-50">
+            <img src="./img/img1.svg" alt="">
+          </div>
+          <div class="position-relative w-50">
+            <p class="w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates consectetur animi cumque fuga architecto quis impedit, totam possimus delectus.</p>
+            <p class="border-top border-dark text-center">
+              SOBRE NÓS
+            </p>
+          </div>
+        </div>
+        <button href="" class="btn btn-default">
+          Conheça nossos serviços
+        </button>
+      </section>
+    </main>
+    <footer class="d-flex flex-column align-items-center px-4">
+      <a href="#nav" class="text-center"><i class="bi bi-arrow-up-circle"></i>
+        <p>
+          Ir para o topo
+        </p>
+      </a>
+      <div class="d-flex justify-content-between w-100">
+        <p>&copy; 2023 Visual Pic</p>
+        <p>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-telephone"></i>
+        </p>
+      </div>
+    </footer>
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
