@@ -1,0 +1,56 @@
+@import url(./variables.css);
+
+h1 span {
+  color: var(--text-primary);
+}
+
+main {
+  grid-area: content;
+  min-height: 100vh;
+}
+
+section i {
+  color: var(--text-primary);
+}
+
+section {
+  margin-top: 50px;
+}
+
+#carrousel {
+  height: 230px !important;
+}
+
+.profissional h6 {
+  margin-bottom: 0;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: flex !important;
+  justify-content: center;
+  gap: 30px;
+}
+
+.profissional {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.profissional img {
+  width: 150px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--text-secondary) !important;
+  opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+  background-color: var(--text-primary) !important;
+}

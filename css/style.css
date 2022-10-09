@@ -1,12 +1,4 @@
-
-:root {
-  --default-bg: #EEEDEE;
-  --text: #000;
-  --text-primary: #DB574D;
-  --text-secondary: #BBBBBB;
-  --text-hl: #fff;
-  --bs-font-sans-serif: 'Poppins', sans-serif !important;
-}
+@import url(./style-var.css);
 
 body {
   background-color: var(--default-bg)!important;
@@ -83,39 +75,7 @@ nav {
   }
 }
 
-/* -------- Fim da Navbar -------- */
-
-h1 span {
-  color: var(--text-primary);
-}
-
-main {
-  grid-area: content;
-  min-height: 150vh;
-}
-
-section i {
-  color: var(--text-primary);
-}
-
-#carrousel {
-  height: 210px !important;
-}
-
-.profissional {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.profissional img {
-  width: 135px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 10px;
-}
+/* -------- Footer -------- */
 
 footer {
   grid-area: footer;
@@ -127,10 +87,3 @@ footer a {
   color: var(--text-hl);
   text-decoration: none;
 }
-
-@media (min-width: 992px) {
-  body, a, button, textarea, input {
-    font-size: 16px !important;
-  }
-}
-
