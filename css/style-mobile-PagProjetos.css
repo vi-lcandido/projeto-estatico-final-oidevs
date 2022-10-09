@@ -99,7 +99,7 @@ img:hover {
     border-radius: 8px;
 }
 
-article .button-album:hover + img {
+.album .button-album:hover + img {
     cursor: pointer;
     opacity: 1.0
 }
