@@ -7,23 +7,35 @@
     <link rel="stylesheet" href="./css/style-PagLogin.css" />
     <title>Pag Login</title>
     <body>
-      <div class="container">
-        <div class="card-login">
-          <h1>Login</h1>
-          <div class="container-login">
-            <div class="login-input">
-              <label class="login" for="name">Usuário</label>
-              <input id="name" />
-              <label class="pass" for="password">Senha</label>
-              <input id="password" />
-              <div class="container-button">
-                <button class="enter">login</button>
-                <button class="recover-password">Esqueceu a senha?</button>
-              </div>
-            </div>
+      <main>
+        <section class="section-container-login">
+          <div class="title-login">
+            <p class="text-back">voltar</p>
+            <h1 class="text-login">Entrar</h1>
           </div>
-        </div>
-      </div>
+          <div class="inputs-anchors">
+            <label class="label-user" for="user">Usuário</label>
+            <input
+              type="text"
+              placeholder="&nbsp;&nbsp;e-mail ou usuário"
+              class="login-input"
+              id="user"
+            />
+            <label class="label-pass" for="pass">Senha</label>
+            <input
+              type="password"
+              placeholder="&nbsp;&nbsp;min 6 caracteres"
+              class="pass-input"
+              id="pass"
+            />
+          </div>
+          <div class="anchors-login">
+            <a class="enter" href="#" id="anchor-enter">Entrar</a>
+            <a class="register" href="#" id="anchor-register">Cadastre-se</a>
+            <a class="recover-pass" href="#">Esqueceu a senha?</a>
+          </div>
+        </section>
+      </main>
     </body>
   </head>
 </html>
