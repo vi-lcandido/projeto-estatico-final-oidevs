@@ -18,7 +18,9 @@ h1 {
 
 .about {
   position: absolute;
-  left: -30px;
+  width: 140px;
+  left: -90px;
+  bottom: 35%;
   transform: rotate(-90deg);
 }
 
@@ -34,14 +36,15 @@ h1 {
   height: 230px !important;
 }
 
-.profissional h6 {
-  margin-bottom: 0;
-}
-
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: flex !important;
   justify-content: center;
   gap: 30px;
+}
+
+.profissional h6 {
+  margin-bottom: 0;
+  font-weight: 700;
 }
 
 .profissional {
@@ -67,3 +70,13 @@ h1 {
 .carousel-indicators .active {
   background-color: var(--text-primary) !important;
 }
+
+.work-together {
+  width: 15rem;
+  margin-bottom: 50px;
+}
+
+.pre-footer {
+  margin: 0 auto;
+}
+
