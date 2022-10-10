@@ -1,0 +1,69 @@
+@import url(./variables.css);
+
+h1 span {
+  color: var(--text-primary);
+}
+
+section i {
+  color: var(--text-primary);
+}
+
+h1 {
+  flex: 1;
+}
+
+.info {
+  width: 100%;
+}
+
+.about {
+  position: absolute;
+  left: -30px;
+  transform: rotate(-90deg);
+}
+
+.imgs img {
+  width: 8rem;
+}
+
+.img-2, .img-3, .img-4 {
+  display: none;
+}
+
+#carrousel {
+  height: 230px !important;
+}
+
+.profissional h6 {
+  margin-bottom: 0;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: flex !important;
+  justify-content: center;
+  gap: 30px;
+}
+
+.profissional {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.profissional img {
+  width: 150px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--text-secondary) !important;
+  opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+  background-color: var(--text-primary) !important;
+}

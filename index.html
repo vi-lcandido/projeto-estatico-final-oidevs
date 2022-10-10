@@ -5,28 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Pic</title>
+    <!-- Estilos -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-index-mobile.css">
+    <link rel="stylesheet" href="./css/style-index-desktop.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <!-- Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-light" id="nav">
+        <div class="container-fluid mx-4">
           <a class="navbar-brand" href="#">
             <img src="./img/logo.svg" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <img src="./img/toggle.svg" alt="">
           </button>
-          <div class="collapse navbar-collapse" id="navbarToggler">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Início</a>
+                <a class="nav-link" href="index.html" id="home">Início</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Serviços</a>
@@ -38,16 +38,106 @@
                 <a class="nav-link" href="#">Contato</a>
               </li>
               <li class="nav-item">
-                <button class="btn btn-second"> Entrar</button>
+                <button class="btn btn-second ms-3"> Entrar</button>
               </li>
               <li class="nav-item">
-                <button class="btn btn-default"> Cadastre-se</button>
+                <button class="btn btn-default ms-3 mt-2"> Cadastre-se</button>
               </li>
               
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
+    <main class="containter d-flex flex-column justify-content-center">
+      <section class="container">
+        <div class="container d-flex align-items-center gap-2">
+          <div class="d-flex flex-column justify-content-center align-items-start gap-2">
+            <h1 class="fw-bold">Onde a <span class="text-decoration-underline">criatividade</span>  acontece<span>.</span></h1>
+            <div class="position-relative info">
+              <p class="w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates consectetur animi cumque fuga architecto quis impedit, totam possimus delectus.</p>
+              <p class="border-bottom border-dark text-center about">
+                SOBRE NÓS
+              </p>
+            </div>
+            <div class="d-flex justify-content-center w-100">
+              <button href="" class="btn btn-default">
+                Conheça nossos serviços
+              </button>
+            </div>
+          </div>
+          <div class="imgs">
+            <img src="./img/img1.svg" alt="black woman with flowers in her head" class="img-1">
+            <img src="./img/img2.svg" alt="black woman posing on yellow a wall" class="img-2">
+            <img src="./img/img3.svg" alt="white woman with short hair posing on yellow a wall" class="img-3" >
+            <img src="./img/img4.svg" alt="white woman with black lipstick posing on yellow a wall" class="img-4">
+          </div>
+        </div>
+        <a href="#team" class="btn mt-4 d-flex justify-content-center w-100">
+          <i class="bi bi-caret-down-fill fs-5"></i>
+        </a>
+      </section>
+      <section id="team">
+        <h3 class="border-bottom border-dark d-inline-block pb-2 mb-4">Conheça o time</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolores minima mollitia nisi iure qui necessitatibus distinctio consectetur iusto incidunt.</p>
+        <div id="carrousel" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carrousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carrousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carrousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="profissional">
+                <img src="./img/woman-photographer.jpg" alt="woman-photographer">
+                <h6>Vitória Cândido</h6>
+                <p>Photographer</p>
+              </div>
+              <div class="profissional">
+                <img src="./img/woman-photographer-2.jpg" alt="woman-photographer">
+                <h6>Ivina Albuquerque</h6>
+                <p>Photographer</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="profissional">
+                <img src="./img/man-photographer.jpg" alt="woman-photographer">
+                <h6>Bruno Correia</h6>
+                <p>Photographer</p>
+              </div>
+              <div class="profissional">
+                <img src="./img/woman-photographer-3.jpg" alt="woman-photographer">
+                <h6>Amanda Guerra</h6>
+                <p>Photographer</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="profissional">
+                <img src="./img/man-videomaker.jpg" alt="man-videomaker">
+                <h6>Felipe Nogueira</h6>
+                <p>Videomaker</p>
+              </div>
+              <div class="profissional">
+                <img src="./img/woman-videomaker.jpg" alt="woman-videomaker">
+                <h6>Carol Ferraz</h6>
+                <p>Videomaker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="d-flex flex-column align-items-center px-4 gap-2 pt-2">
+      <a href="#nav" class="text-center"><i class="bi bi-caret-up-fill"></i></i>
+          Ir para o topo
+      </a>
+      <div class="d-flex justify-content-between w-100">
+        <p>&copy; 2023 Visual Pic</p>
+        <p>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-telephone"></i>
+        </p>
+      </div>
+    </footer>
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
