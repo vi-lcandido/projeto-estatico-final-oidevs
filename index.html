@@ -5,17 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visual Pic</title>
+    <!-- Estilos -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style-index.css">
+    <link rel="stylesheet" href="./css/style-index-mobile.css">
     <link rel="stylesheet" href="./css/style-index-desktop.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <!-- Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light" id="nav">
@@ -51,24 +48,31 @@
           </div>
         </div>
     </nav>
-    <main class="containter mx-4 d-flex flex-column justify-content-center">
-      <section class="container d-flex flex-column align-items-center gap-2">
-        <h1 class="fw-bold">Onde a <span class="text-decoration-underline">criatividade</span>  acontece<span>.</span></h1>
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="imgs mw-50">
-            <img src="./img/img1.svg" alt="">
+    <main class="containter d-flex flex-column justify-content-center">
+      <section class="container">
+        <div class="container d-flex align-items-center gap-2">
+          <div class="d-flex flex-column justify-content-center align-items-start gap-2">
+            <h1 class="fw-bold">Onde a <span class="text-decoration-underline">criatividade</span>  acontece<span>.</span></h1>
+            <div class="position-relative info">
+              <p class="w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates consectetur animi cumque fuga architecto quis impedit, totam possimus delectus.</p>
+              <p class="border-bottom border-dark text-center about">
+                SOBRE NÓS
+              </p>
+            </div>
+            <div class="d-flex justify-content-center w-100">
+              <button href="" class="btn btn-default">
+                Conheça nossos serviços
+              </button>
+            </div>
           </div>
-          <div class="position-relative w-50">
-            <p class="w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates consectetur animi cumque fuga architecto quis impedit, totam possimus delectus.</p>
-            <p class="border-top border-dark text-center">
-              SOBRE NÓS
-            </p>
+          <div class="imgs">
+            <img src="./img/img1.svg" alt="black woman with flowers in her head" class="img-1">
+            <img src="./img/img2.svg" alt="black woman posing on yellow a wall" class="img-2">
+            <img src="./img/img3.svg" alt="white woman with short hair posing on yellow a wall" class="img-3" >
+            <img src="./img/img4.svg" alt="white woman with black lipstick posing on yellow a wall" class="img-4">
           </div>
         </div>
-        <button href="" class="btn btn-default">
-          Conheça nossos serviços
-        </button>
-        <a href="#team" class="btn mt-4">
+        <a href="#team" class="btn mt-4 d-flex justify-content-center w-100">
           <i class="bi bi-caret-down-fill fs-5"></i>
         </a>
       </section>

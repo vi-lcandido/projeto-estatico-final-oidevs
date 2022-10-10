@@ -4,17 +4,30 @@ h1 span {
   color: var(--text-primary);
 }
 
-main {
-  grid-area: content;
-  min-height: 100vh;
-}
-
 section i {
   color: var(--text-primary);
 }
 
-section {
-  margin-top: 50px;
+h1 {
+  flex: 1;
+}
+
+.info {
+  width: 100%;
+}
+
+.about {
+  position: absolute;
+  left: -30px;
+  transform: rotate(-90deg);
+}
+
+.imgs img {
+  width: 8rem;
+}
+
+.img-2, .img-3, .img-4 {
+  display: none;
 }
 
 #carrousel {

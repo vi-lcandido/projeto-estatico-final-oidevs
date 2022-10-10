@@ -1,5 +1,43 @@
+@media (min-width: 576px) and (max-width: 992px) {
+  
+}
+
 @media (min-width: 992px) {
-  body, a, button, textarea, input {
-    font-size: 16px !important;
+  .imgs {
+    display: grid;
+    grid-template-columns: 12rem 12rem 12rem;
+    grid-template-rows: 12rem 12rem 12rem 12rem;
+    grid-template-areas:
+    "R1 F1 R2"
+    "F2 F1 F3"
+    "F2 F4 F3"
+    "R3 F4 R4";
+    gap: 1rem;
   }
+ 
+  .imgs img {
+    width: 12rem;
+  }
+
+  .img-2, .img-3, .img-4 {
+    display: block;
+  }
+
+  .img-1 {
+    grid-area: F1;
+  }
+
+  .img-2 {
+    grid-area: F2;
+  }
+
+  .img-3 {
+    grid-area: F3;
+  }
+
+  .img-4 {
+    grid-area: F4;
+  }
+
+
 }
