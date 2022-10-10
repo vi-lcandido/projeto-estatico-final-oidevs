@@ -1,12 +1,29 @@
-@media (min-width: 576px) and (max-width: 992px) {
-  
-}
-
 @media (min-width: 992px) {
+  .section-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #team p {
+    max-width: 400px;
+  }
+
+  #carrousel {
+    height: 280px !important;
+  }
+
+  .profissional img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
   .imgs {
     display: grid;
-    grid-template-columns: 12rem 12rem 12rem;
-    grid-template-rows: 12rem 12rem 12rem 12rem;
+    grid-template-columns: 9.5rem 9.5rem 9.5rem;
+    grid-template-rows: 9.5rem 9.5rem 9.5rem 9.5rem;
     grid-template-areas:
     "R1 F1 R2"
     "F2 F1 F3"
@@ -16,7 +33,7 @@
   }
  
   .imgs img {
-    width: 12rem;
+    width: 10rem;
   }
 
   .img-2, .img-3, .img-4 {
@@ -39,5 +56,8 @@
     grid-area: F4;
   }
 
+  .work-together {
+    width: 20rem;
+  }
 
 }

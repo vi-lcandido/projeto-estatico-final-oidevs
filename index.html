@@ -50,7 +50,7 @@
     </nav>
     <main class="containter d-flex flex-column justify-content-center">
       <section class="container">
-        <div class="container d-flex align-items-center gap-2">
+        <div class="container d-flex align-items-center gap-3">
           <div class="d-flex flex-column justify-content-center align-items-start gap-2">
             <h1 class="fw-bold">Onde a <span class="text-decoration-underline">criatividade</span>  acontece<span>.</span></h1>
             <div class="position-relative info">
@@ -76,53 +76,60 @@
           <i class="bi bi-caret-down-fill fs-5"></i>
         </a>
       </section>
-      <section id="team">
-        <h3 class="border-bottom border-dark d-inline-block pb-2 mb-4">Conheça o time</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolores minima mollitia nisi iure qui necessitatibus distinctio consectetur iusto incidunt.</p>
-        <div id="carrousel" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carrousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carrousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carrousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <section id="team" class="d-flex flex-column gap-5">
+        <div class="section-content">
+          <div class="section-info">
+            <h3 class="border-bottom border-dark d-inline-block pb-2 mb-4">Conheça o time</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolores minima mollitia nisi iure qui necessitatibus distinctio consectetur iusto incidunt.</p>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="profissional">
-                <img src="./img/woman-photographer.jpg" alt="woman-photographer">
-                <h6>Vitória Cândido</h6>
-                <p>Photographer</p>
+            <div id="carrousel" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carrousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carrousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
-              <div class="profissional">
-                <img src="./img/woman-photographer-2.jpg" alt="woman-photographer">
-                <h6>Ivina Albuquerque</h6>
-                <p>Photographer</p>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="profissional">
+                    <img src="./img/woman-photographer.jpg" alt="woman-photographer">
+                    <h6>Vitória Cândido</h6>
+                    <p>Photographer</p>
+                  </div>
+                  <div class="profissional">
+                    <img src="./img/woman-photographer-2.jpg" alt="woman-photographer">
+                    <h6>Ivina Albuquerque</h6>
+                    <p>Photographer</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="profissional">
+                    <img src="./img/man-photographer.jpg" alt="woman-photographer">
+                    <h6>Bruno Correia</h6>
+                    <p>Photographer</p>
+                  </div>
+                  <div class="profissional">
+                    <img src="./img/woman-photographer-3.jpg" alt="woman-photographer">
+                    <h6>Amanda Guerra</h6>
+                    <p>Photographer</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="profissional">
+                    <img src="./img/man-videomaker.jpg" alt="man-videomaker">
+                    <h6>Felipe Nogueira</h6>
+                    <p>Videomaker</p>
+                  </div>
+                  <div class="profissional">
+                    <img src="./img/woman-videomaker.jpg" alt="woman-videomaker">
+                    <h6>Carol Ferraz</h6>
+                    <p>Videomaker</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="profissional">
-                <img src="./img/man-photographer.jpg" alt="woman-photographer">
-                <h6>Bruno Correia</h6>
-                <p>Photographer</p>
-              </div>
-              <div class="profissional">
-                <img src="./img/woman-photographer-3.jpg" alt="woman-photographer">
-                <h6>Amanda Guerra</h6>
-                <p>Photographer</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="profissional">
-                <img src="./img/man-videomaker.jpg" alt="man-videomaker">
-                <h6>Felipe Nogueira</h6>
-                <p>Videomaker</p>
-              </div>
-              <div class="profissional">
-                <img src="./img/woman-videomaker.jpg" alt="woman-videomaker">
-                <h6>Carol Ferraz</h6>
-                <p>Videomaker</p>
-              </div>
-            </div>
-          </div>
+        </div>
+        <div class="pre-footer">
+          <img src="./img/work.svg" alt="" class="work-together">
         </div>
       </section>
     </main>
@@ -132,10 +139,14 @@
       </a>
       <div class="d-flex justify-content-between w-100">
         <p>&copy; 2023 Visual Pic</p>
-        <p>
-          <i class="bi bi-instagram"></i>
-          <i class="bi bi-telephone"></i>
-        </p>
+        <div class="buttons d-flex gap-3">
+          <a href="#">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="">
+            <i class="bi bi-telephone"></i>
+          </a>
+        </div>
       </div>
     </footer>
     <!-- Bootstrap JavaScript -->
