@@ -57,9 +57,29 @@
       <input type="password" id="old-password" placeholder="min 6 caracteres">
       <label for="new-password">Nova Senha</label>
       <input type="password" id="new-password" placeholder="min 6 caracteres">
-      <a href="" class="btn btn-default">Atualizar</a>
+      <button href="" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#updated">Atualizar</button>
     </section>
   </main>
+
+<!-- Modal -->
+<div class="modal fade" id="updated" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex flex-column align-items-center justify-content-center gap-4">
+        <i class="bi bi-check2-circle"></i>
+        <h5>Perfil Atualizado com Sucesso</h5>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-default">Voltar para o início</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <footer class="d-flex flex-column align-items-center px-4 gap-2 pt-2">
     <a href="#nav" class="text-center"><i class="bi bi-caret-up-fill"></i></i>

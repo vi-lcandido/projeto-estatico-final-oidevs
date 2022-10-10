@@ -36,3 +36,24 @@ label {
   color: var(--text-secondary);
   font-weight: 700;
 }
+
+.modal-header {
+  padding-bottom: 0 !important;
+}
+
+.modal-footer, .modal-header {
+  border: none !important;
+}
+
+.modal-dialog {
+  max-width: 350px !important;
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+
+.modal-body i {
+  color: var(--text-primary);
+  font-size: 3.5rem;
+}
