@@ -58,6 +58,7 @@ h2 {
 }
 
 input {
+  padding: 0 15px;
   border: none;
   width: 100%;
   height: 40px;
