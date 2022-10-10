@@ -84,6 +84,10 @@ nav {
     padding: 0 40px;
     justify-content: end !important;
   }
+  
+  main {
+    margin: 0 auto;
+  }
 }
 
 /* -------- Footer -------- */
@@ -100,9 +104,6 @@ footer a {
 }
 
 @media (min-width: 576px) {
-  main {
-    margin: 0 auto;
-  }
 
   body, a, button, textarea, input {
     font-size: 16px !important;
