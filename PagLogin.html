@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style-PagLogin.css" />
-    <title>Pag Login</title>
+    <title>PagLogin</title>
     <body>
       <main>
         <section class="section-container-login">
-          <div class="title-login">
-            <p class="text-back">voltar</p>
-            <h1 class="text-login">Entrar</h1>
+          <div class="div-back">
+            <img src="./img/seta.svg" alt="arrow" class="arrow" />
+            <a class="text-back" href="./index.html">Voltar</a>
           </div>
-          <div class="inputs-anchors">
+          <h2 class="text-login">Entrar</h2>
+          <form class="inputs-labels">
             <label class="label-user" for="user">Usuário</label>
             <input
               type="text"
               placeholder="&nbsp;&nbsp;e-mail ou usuário"
               class="login-input"
               id="user"
+              required
             />
             <label class="label-pass" for="pass">Senha</label>
             <input
@@ -27,11 +29,11 @@
               placeholder="&nbsp;&nbsp;min 6 caracteres"
               class="pass-input"
               id="pass"
+              required
             />
-          </div>
-          <div class="anchors-login">
-            <a class="enter" href="#" id="anchor-enter">Entrar</a>
-            <a class="register" href="#" id="anchor-register">Cadastre-se</a>
+          </form>
+          <div class="anchors-enter">
+            <button class="enter" id="anchor-enter">Entrar</button>
             <a class="recover-pass" href="#">Esqueceu a senha?</a>
           </div>
         </section>

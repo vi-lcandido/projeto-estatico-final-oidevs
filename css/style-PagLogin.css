@@ -1,10 +1,13 @@
+@import url("variables.css");
+
 * {
   margin: 0;
   padding: 0;
 }
 
 main {
-  background-color: #bbbbbb;
+  background-color: var(--text-secondary);
+  width: 100%;
   height: 100vh;
   display: flex;
 }
@@ -15,92 +18,100 @@ section {
   height: 370px;
   background-color: #eeeeee;
   border-radius: 10px;
+  padding: 20px;
 }
 
-.title-login {
+.div-back {
   display: flex;
-  flex-direction: column;
-  margin-top: 20px;
   flex: 1;
+  gap: 8px;
+  font-family: var(--bs-font-sans-serif);
 }
 
 .text-back {
-  margin-left: 20px;
+  text-decoration: none;
+  color: var(--text-primary);
+  cursor: pointer;
 }
 
-.text-login {
+h2 {
   display: flex;
   width: 100%;
   height: 36px;
-  align-items: center;
   justify-content: center;
-  text-decoration: underline;
+  text-decoration: 1px underline;
+  text-underline-offset: 10px;
+  font-family: var(--bs-font-sans-serif);
 }
 
-.inputs-anchors {
+form {
   display: flex;
   flex-direction: column;
-  margin: 0 20px 0;
-  gap: 8px;
+  gap: 14px;
+  padding: 20px 0 20px;
 }
 
-.login-input {
-  width: 100%;
-  height: 40px;
-  box-sizing: border-box;
-  background: #f5f5f5;
-  border: none;
-  box-shadow: 0px 1px 8px rgba(37, 42, 52, 0.4);
-  border-radius: 11px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
+label {
+  font-family: var(--bs-font-sans-serif);
   font-size: 12px;
-  line-height: 18px;
+  color: var(--text-secondary);
+  font-weight: 700;
 }
 
-.pass-input {
+input {
   width: 100%;
   height: 40px;
-  border: none;
   box-sizing: border-box;
-  background: #f5f5f5;
+  background-color: #f5f5f5;
+  border: none;
   box-shadow: 0px 1px 8px rgba(37, 42, 52, 0.4);
   border-radius: 11px;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 11px;
 }
 
-.anchors-login {
+input:focus {
+  outline: none;
+  border: var(--text-primary);
+  box-shadow: 0 0 7px #dd473d;
+}
+
+.anchors-enter {
   display: flex;
   flex-direction: column;
-  margin: 12px 20px 0;
   gap: 12px;
 }
+
 .enter {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
-  background-color: #db574d;
+  color: var(--text-hl);
+  background-color: var(--text-primary);
   height: 35px;
-  border: 1px solid #db574d;
+  border: 1px solid var(--text-primary);
   border-radius: 8px;
   text-decoration: none;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 12px;
 }
 
-.register {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #db574d;
-  height: 35px;
-  border: 1px solid #db574d;
-  border-radius: 8px;
-  text-decoration: none;
+.enter:hover {
+  background-color: var(--default-bg);
+  color: var(--text);
 }
 .recover-pass {
   text-decoration: none;
   text-align: center;
-  background: #eeedee;
+  background-color: none;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 12px;
+  color: var(--text-secondary);
 }
+
+.recover-pass:hover {
+  color: black;
+}
+
 /*quebra de 992px p desktop*/
 /*min-width 576px*/
