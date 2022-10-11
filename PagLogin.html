@@ -5,25 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style-PagLogin.css" />
-    <title>Pag Login</title>
+    <title>PagLogin</title>
     <body>
-      <div class="container">
-        <div class="card-login">
-          <h1>Login</h1>
-          <div class="container-login">
-            <div class="login-input">
-              <label class="login" for="name">Usuário</label>
-              <input id="name" />
-              <label class="pass" for="password">Senha</label>
-              <input id="password" />
-              <div class="container-button">
-                <button class="enter">login</button>
-                <button class="recover-password">Esqueceu a senha?</button>
-              </div>
-            </div>
+      <main>
+        <section class="section-container-login">
+          <div class="div-back">
+            <img src="./img/seta.svg" alt="arrow" class="arrow" />
+            <a class="text-back" href="./index.html">Voltar</a>
           </div>
-        </div>
-      </div>
+          <h2 class="text-login">Entrar</h2>
+          <form class="inputs-labels">
+            <label class="label-user" for="user">Usuário</label>
+            <input
+              type="text"
+              placeholder="&nbsp;&nbsp;e-mail ou usuário"
+              class="login-input"
+              id="user"
+              required
+            />
+            <label class="label-pass" for="pass">Senha</label>
+            <input
+              type="password"
+              placeholder="&nbsp;&nbsp;min 6 caracteres"
+              class="pass-input"
+              id="pass"
+              required
+            />
+          </form>
+          <div class="anchors-enter">
+            <a class="enter" id="anchor-enter" href="./galery.html">Entrar</a>
+            <a class="recover-pass">Esqueceu a senha?</a>
+          </div>
+        </section>
+      </main>
     </body>
   </head>
 </html>
