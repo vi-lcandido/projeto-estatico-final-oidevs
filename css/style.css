@@ -1,16 +1,20 @@
-@import url(./style-var.css);
+@import url(./variables.css);
 
 body {
-  background-color: var(--default-bg)!important;
+  background-color: var(--default-bg) !important;
   grid-template-columns: 100%;
   grid-template-rows: 60px auto 90px;
   grid-template-areas:
-  "header"
-  "content"
-  "footer";
+    "header"
+    "content"
+    "footer";
 }
 
-body, a, button, textarea, input {
+body,
+a,
+button,
+textarea,
+input {
   font-family: var(--bs-font-sans-serif);
   font-size: 14px !important;
 }
@@ -34,7 +38,7 @@ section {
 /*------------ NavBar-----------------*/
 
 nav.bg-light {
-  background-color: var(--default-bg)!important;
+  background-color: var(--default-bg) !important;
 }
 
 nav {
@@ -42,7 +46,12 @@ nav {
   grid-area: header;
 }
 
-.nav-link#home, .nav-link#services, .nav-link#projects, .nav-link#contact, .nav-link#gallery, .nav-link#profile {
+.nav-link#home,
+.nav-link#services,
+.nav-link#projects,
+.nav-link#contact,
+.nav-link#gallery,
+.nav-link#profile {
   color: var(--text-primary) !important;
   text-decoration: underline;
 }
@@ -80,11 +89,11 @@ nav {
     margin-top: 0px !important;
   }
 
-  .navbar>.container-fluid {
+  .navbar > .container-fluid {
     padding: 0 40px;
     justify-content: end !important;
   }
-  
+
   main {
     margin: 0 auto;
   }
@@ -108,8 +117,11 @@ footer a:hover {
 }
 
 @media (min-width: 576px) {
-
-  body, a, button, textarea, input {
+  body,
+  a,
+  button,
+  textarea,
+  input {
     font-size: 16px !important;
   }
 
