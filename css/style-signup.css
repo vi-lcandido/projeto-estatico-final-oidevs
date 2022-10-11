@@ -1,5 +1,4 @@
-@import url(./style.css);
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(./variables.css);
 
 * {
   margin: 0;
@@ -7,7 +6,6 @@
 }
 
 main {
-  border: 1px solid blue;
   background-color: var(--text-secondary);
   height: 100vh;
   width: 100%;
@@ -17,7 +15,6 @@ main {
 }
 
 .signup-section { 
-  /* border: 1px solid red; */
   width: 70vw;
   max-width: 400px;
   display: flex;
@@ -30,8 +27,6 @@ main {
 }
 
 .signup-text {
-  /* border: 1px solid green; */
-  
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -42,7 +37,6 @@ form {
   display: flex;
   flex-direction: column;
   gap: 14px;
-  /* border: 1px solid purple; */
 }
 
 h2 {
@@ -52,10 +46,6 @@ h2 {
   text-underline-offset: 10px;
 }
 
-.back {
-  text-decoration: none;
-  color: var(--text-primary);
-}
 
 input {
   padding: 0 15px;
@@ -65,7 +55,6 @@ input {
   border-radius: 11px;
   box-shadow: 0px 1px 8px rgba(37, 42, 52, 0.4);
   box-sizing: border-box;
-  /* margin-bottom: 14px; */
 }
 
 input:focus {
@@ -74,7 +63,13 @@ input:focus {
   box-shadow: 0 0 7px var(--text-primary);
 }
 
-button {
+#signup-anchor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
   background-color: var(--text-primary);
   height: 35px;
   width: 100%;
@@ -83,7 +78,7 @@ button {
   border: none;
 }
 
-button:hover {
+#signup-anchor:hover {
   background-color: var(--default-bg);
   border: 1px solid var(--text-primary);
   color: black;
@@ -94,5 +89,6 @@ button:hover {
 label {
   font-family: "Poppins";
   color: var(--text-secondary);
+  font-size: 12px;
   font-weight: 700;
 }
