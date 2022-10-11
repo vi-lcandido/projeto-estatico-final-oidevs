@@ -14,11 +14,20 @@ main {
 
 section {
   margin: auto;
-  width: 280px;
+  width: 35%;
+  max-width: 400px;
+  min-width: 300px;
   height: 370px;
   background-color: #eeeeee;
   border-radius: 10px;
   padding: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  section {
+    width: 70%;
+    min-width: 100px;
+  }
 }
 
 .div-back {
@@ -111,6 +120,7 @@ input:focus {
 
 .recover-pass:hover {
   color: black;
+  cursor: pointer;
 }
 
 /*quebra de 992px p desktop*/
