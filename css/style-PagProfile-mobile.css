@@ -1,0 +1,59 @@
+@import url(./variables.css);
+
+section {
+  max-width: 500px;
+}
+
+section.profile {
+  margin-top: 20px;
+}
+
+section.profile .back {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+
+section.profile .btn-default {
+  width: 100%;
+  margin-top: 8px;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  padding: 0 1rem;
+  border: 1px solid var(--text-secondary);
+  border-radius: 11px;
+  box-shadow: 0px 1px 8px rgba(37, 42, 52, 0.4);
+}
+
+input:outline {
+  color: var(--text-primary);
+}
+
+label {
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+
+.modal-header {
+  padding-bottom: 0 !important;
+}
+
+.modal-footer, .modal-header {
+  border: none !important;
+}
+
+.modal-dialog {
+  max-width: 350px !important;
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+
+.modal-body i {
+  color: var(--text-primary);
+  font-size: 3.5rem;
+}
