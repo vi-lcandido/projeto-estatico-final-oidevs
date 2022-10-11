@@ -1,31 +1,65 @@
+@import url(./variables.css);
 
-:root {
-  --default-bg: #EEEDEE;
-  --text: #000;
-  --text-primary: #DB574D;
-  --text-secondary: #BBBBBB;
-  --text-hl: #fff;
-  --bs-font-sans-serif: 'Poppins', sans-serif !important;
+body {
+  background-color: var(--default-bg) !important;
+  grid-template-columns: 100%;
+  grid-template-rows: 60px auto 90px;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
 }
 
-html {
-  background-color: var(--default-bg);
+body,
+a,
+button,
+textarea,
+input {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 14px !important;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+main {
+  grid-area: content;
+  min-height: 100vh;
+  margin: 0 20px;
+  max-width: 900px;
+}
+
+section {
+  margin-top: 50px;
 }
 
 /*------------ NavBar-----------------*/
+
+nav.bg-light {
+  background-color: var(--default-bg) !important;
+}
+
+nav {
+  min-height: 60px;
+  grid-area: header;
+}
+
+.nav-link#home,
+.nav-link#services,
+.nav-link#projects,
+.nav-link#contact,
+.nav-link#gallery,
+.nav-link#profile {
+  color: var(--text-primary) !important;
+  text-decoration: underline;
+}
 
 .btn.btn-default {
   background-color: var(--text-primary);
   border: 1px solid var(--text-primary);
   color: var(--text-hl);
-}
-
-.nav-item .btn.btn-second, .nav-item .btn.btn-default {
-  margin-left: 15px;
-}
-
-.nav-item .btn.btn-default {
-  margin-top: 8px;
 }
 
 .btn.btn-default:hover {
@@ -50,16 +84,48 @@ html {
   text-decoration: underline;
 }
 
-.navbar>.container-fluid {
-  padding: 0 20px;
-}
-
 @media (min-width: 992px) {
   .nav-item .btn.btn-default {
-    margin-top: 0px;
+    margin-top: 0px !important;
   }
 
-  .navbar>.container-fluid {
-  padding: 0 40px;
+  .navbar > .container-fluid {
+    padding: 0 40px;
+    justify-content: end !important;
+  }
+
+  main {
+    margin: 0 auto;
+  }
+}
+
+/* -------- Footer -------- */
+
+footer {
+  grid-area: footer;
+  background-color: var(--text-primary);
+  color: var(--text-hl);
+}
+
+footer a {
+  color: var(--text-hl);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--text-hl);
+}
+
+@media (min-width: 576px) {
+  body,
+  a,
+  button,
+  textarea,
+  input {
+    font-size: 16px !important;
+  }
+
+  .buttons i {
+    font-size: 1.2rem;
   }
 }
