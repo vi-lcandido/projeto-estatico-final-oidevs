@@ -68,6 +68,12 @@ input {
   /* margin-bottom: 14px; */
 }
 
+input:focus {
+  outline: none;
+  border: #dd473d;
+  box-shadow: 0 0 7px var(--text-primary);
+}
+
 button {
   background-color: var(--text-primary);
   height: 35px;
@@ -77,8 +83,16 @@ button {
   border: none;
 }
 
+button:hover {
+  background-color: var(--default-bg);
+  border: 1px solid var(--text-primary);
+  color: black;
+  cursor: pointer;
+}
+
+
 label {
   font-family: "Poppins";
   color: var(--text-secondary);
-  font-weight: bolder;
+  font-weight: 700;
 }
