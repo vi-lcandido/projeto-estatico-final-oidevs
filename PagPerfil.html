@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style-PagProfile-mobile.css">
+  <link rel="stylesheet" href="./css/style-PagProfile-desktop.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Perfil</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light" id="nav">
+    <div class="container-fluid mx-4">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./img/toggle.svg" alt="">
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="">Álbuns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="profile">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-default ms-3 mt-2">Sair</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="d-flex flex-column align-items-start gap-2 profile">
+      <a href="" class="mb-3 d-flex align-items-center back">
+        <i class="bi bi-arrow-left-short fs-3 mb-2"></i>
+        <p class="m-0">Voltar</p>
+      </a>
+      <h3 class="border-bottom border-dark d-inline-block pb-2 mb-4">Seu Perfil</h3>
+      <label for="name">Nome</label>
+      <input type="text" id="name" value="Natasha Pinheiro">
+      <label for="email">Email</label>
+      <input type="email" id="email" value="natasha@email.com">
+      <label for="old-password">Senha antiga</label>
+      <input type="password" id="old-password" placeholder="min 6 caracteres">
+      <label for="new-password">Nova Senha</label>
+      <input type="password" id="new-password" placeholder="min 6 caracteres">
+      <button href="" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#updated">Atualizar</button>
+    </section>
+  </main>
+
+<!-- Modal -->
+<div class="modal fade" id="updated" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex flex-column align-items-center justify-content-center gap-4">
+        <i class="bi bi-check2-circle"></i>
+        <h5>Perfil Atualizado com Sucesso</h5>
+      </div>
+      <div class="modal-footer mx-auto">
+        <button type="button" class="btn btn-default">Voltar para o início</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer class="d-flex flex-column align-items-center px-4 gap-2 pt-2">
+    <a href="#nav" class="text-center"><i class="bi bi-caret-up-fill"></i></i>
+        Ir para o topo
+    </a>
+    <div class="d-flex justify-content-between w-100">
+      <p>&copy; 2023 Visual Pic</p>
+      <div class="buttons d-flex gap-3">
+        <a href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-telephone"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
