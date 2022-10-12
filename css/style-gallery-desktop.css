@@ -1,0 +1,26 @@
+
+@media (min-width: 768px) {
+
+  #section-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  div.div-card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 992px) {
+  
+
+  div.div-card {
+    width: 32%;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+}
