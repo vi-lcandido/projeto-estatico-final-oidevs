@@ -1,0 +1,81 @@
+/* General */
+@import url(./variables.css);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Top page */
+.back-button,
+img {
+  margin-top: 10px;
+}
+
+.flex-date h2 {
+  display: inline-block;
+  color: var(--text);
+  border-bottom: 1px solid var(--text);
+}
+
+.flex-date p {
+  font-size: 12px;
+  color: var(--text);
+}
+
+.date {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.flex-top {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Galery */
+
+.container-galery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  padding-bottom: 50px;
+  gap: 5px;
+}
+
+.item-galery {
+  position: relative;
+}
+
+.item-galery .img-galery {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.l-1 {
+  grid-row: span 1;
+}
+
+.l-2 {
+  grid-row: span 2;
+}
+
+.c-1 {
+  grid-column: span 1;
+}
+
+.c-2 {
+  grid-column: span 2;
+}
