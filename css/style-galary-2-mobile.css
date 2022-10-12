@@ -1,0 +1,8 @@
+@media (max-width: 992px) {
+    .container-galery {
+     
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

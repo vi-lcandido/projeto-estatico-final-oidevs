@@ -1,6 +1,3 @@
-/* * {
-  border: 1px solid red;
-} */
 
 @import url(./variables.css);
 
@@ -8,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 
 .back-button,
 img {
@@ -83,21 +81,4 @@ img {
   grid-column: span 2;
 }
 
-@media (max-width: 992px) {
-  .container-galery {
-    /* grid-template-columns: repeat(1,1fr);
-    grid-auto-rows: 20vh; */
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  /* .l-2{
-      grid-row: span 1 !important;
-  }
-
-  .c-2{
-      grid-auto-columns: span 1 !important;
-  }
-   */
-}
+me
