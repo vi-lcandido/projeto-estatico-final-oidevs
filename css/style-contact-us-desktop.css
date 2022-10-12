@@ -1,9 +1,4 @@
-/*general*/
-
-/* * {
-  border: 1px solid red;
- 
-} */
+/*General*/
 
 @import url(./variables.css);
 
@@ -96,7 +91,7 @@ textarea {
   border-radius: 40px;
 }
 
-/* bottom */
+/* Bottom */
 
 .logo-bottom {
   width: 100px;
@@ -117,7 +112,7 @@ textarea {
   margin-top: 20px;
 }
 
-/* MODAL */
+/* Modal */
 
 .modal-header {
   padding-bottom: 0 !important;
