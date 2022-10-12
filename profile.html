@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Estilos -->
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/style-PagProfile-mobile.css">
-  <link rel="stylesheet" href="./css/style-PagProfile-desktop.css">
+  <link rel="stylesheet" href="./css/style-profile-mobile.css">
+  <link rel="stylesheet" href="./css/style-profile-desktop.css">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
   <title>Perfil</title>
 </head>
 <body>
@@ -26,16 +27,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="">Álbuns</a>
+            <a class="nav-link" href="gallery.html">Álbuns</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="profile">Perfil</a>
+            <a class="nav-link" href="profile.html" id="profile">Perfil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="contact-us-after-login.html">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-default ms-3 mt-2">Sair</a>
+              <a class="btn btn-default ms-3 mt-2" href="index.html">Sair</a>
           </li>
         </ul>
       </div>
@@ -44,20 +45,22 @@
 
   <main>
     <section class="d-flex flex-column align-items-start gap-2 profile">
-      <a href="" class="mb-3 d-flex align-items-center back">
+      <a href="gallery.html" class="mb-3 d-flex align-items-center back">
         <i class="bi bi-arrow-left-short fs-3 mb-2"></i>
         <p class="m-0">Voltar</p>
       </a>
       <h3 class="border-bottom border-dark d-inline-block pb-2 mb-4">Seu Perfil</h3>
-      <label for="name">Nome</label>
-      <input type="text" id="name" value="Natasha Pinheiro">
-      <label for="email">Email</label>
-      <input type="email" id="email" value="natasha@email.com">
-      <label for="old-password">Senha antiga</label>
-      <input type="password" id="old-password" placeholder="min 6 caracteres">
-      <label for="new-password">Nova Senha</label>
-      <input type="password" id="new-password" placeholder="min 6 caracteres">
-      <button href="" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#updated">Atualizar</button>
+      <form>
+        <label for="name">Nome</label>
+        <input type="text" id="name" value="Natasha Pinheiro">
+        <label for="email">Email</label>
+        <input type="email" id="email" value="natasha@email.com">
+        <label for="old-password">Senha antiga</label>
+        <input type="password" id="old-password" placeholder="min 6 caracteres">
+        <label for="new-password">Nova Senha</label>
+        <input type="password" id="new-password" placeholder="min 6 caracteres">
+      </form>
+      <button type="submit" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#updated">Atualizar</button>
     </section>
   </main>
 
@@ -75,7 +78,9 @@
         <h5>Perfil Atualizado com Sucesso</h5>
       </div>
       <div class="modal-footer mx-auto">
-        <button type="button" class="btn btn-default">Voltar para o início</button>
+        <a href="gallery.html">
+          <button class="btn btn-default">Voltar para o início</button>
+        </a>
       </div>
     </div>
   </div>

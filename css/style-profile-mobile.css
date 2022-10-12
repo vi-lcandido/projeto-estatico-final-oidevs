@@ -13,10 +13,16 @@ section.profile .back {
   text-decoration: none;
 }
 
-
 section.profile .btn-default {
   width: 100%;
   margin-top: 8px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 input {
