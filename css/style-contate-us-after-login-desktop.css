@@ -1,0 +1,11 @@
+
+@media screen and (max-width: 992px) {
+    .image-woman {
+      display: none;
+    }
+    .flex-section {
+      align-items: center;
+      gap: 5px;
+      justify-content: center;
+    }
+  }
