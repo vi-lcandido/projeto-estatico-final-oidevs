@@ -12,9 +12,9 @@ main {
   margin: auto;
 }
 
-#nav {
+/* #nav {
   border: 1px solid black;
-}
+} */
 
 .nav-link#gallery {
   color: var(--text-primary) !important;
@@ -121,7 +121,8 @@ h2 {
   color: white;
 }
 
-#anchor-estimate:hover {
+#anchor-estimate:hover,
+#anchor-logout:hover {
   background-color: var(--default-bg);
   border: 1px solid var(--text-primary);
   color: black;
