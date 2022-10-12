@@ -28,14 +28,10 @@ body {
 }
 
 .flex-section h2 {
-  font-family: var(--bs-font-sans-serif) !important;
-  font-style: normal;
   font-weight: 400;
   line-height: 36px;
-  color: #000000;
-  order: 0;
-  flex-grow: 0;
-  border-bottom: 1px solid #000000;
+  color: var(--text);
+  border-bottom: 1px solid var(--text);
   display: inline-block;
 }
 
@@ -50,7 +46,7 @@ form input {
 }
 
 .form-group label {
-  color: var(--text-secondary) !important;
+  color: var(--text-secondary);
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
@@ -58,9 +54,9 @@ form input {
 }
 
 .color:focus {
-  outline: none !important;
+  outline: none;
   border: #dd473d !important;
-  box-shadow: 0 0 7px #db574d !important;
+  box-shadow: 0 0 7px var(--text-primary) !important;
 }
 
 .color {
@@ -76,9 +72,6 @@ textarea {
   color: var(--text-secondary);
   width: 100%;
   height: 15px;
-  left: 155px;
-  top: 437px;
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
@@ -101,7 +94,6 @@ textarea {
   width: 315px;
   height: 510px;
   border-radius: 40px;
-  /* margin-top: 100px !important; */
 }
 
 /* bottom */
@@ -123,19 +115,6 @@ textarea {
   width: 15rem;
   margin-bottom: 50px;
   margin-top: 20px;
-}
-
-.p-bottom {
-  font-family: var(--bs-font-sans-serif) !important;
-  margin-top: 50px;
-  line-height: 25px;
-  font-weight: 400 !important;
-  font-size: 20px !important;
-  text-align: center;
-}
-.text-color {
-  color: var(--text-primary);
-  border-bottom: 1px solid #db574d !important;
 }
 
 /* MODAL */
