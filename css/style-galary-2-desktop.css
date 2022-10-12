@@ -1,12 +1,11 @@
-
+/* General */
 @import url(./variables.css);
 
 body {
   margin: 0;
   padding: 0;
 }
-
-
+/* Top page */
 .back-button,
 img {
   margin-top: 10px;
@@ -45,7 +44,7 @@ img {
   justify-content: space-between;
 }
 
-/* GALERY */
+/* Galery */
 
 .container-galery {
   display: grid;
@@ -80,5 +79,3 @@ img {
 .c-2 {
   grid-column: span 2;
 }
-
-me
