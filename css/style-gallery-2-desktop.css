@@ -1,11 +1,14 @@
 /* General */
 @import url(./variables.css);
 
+
 body {
   margin: 0;
   padding: 0;
 }
+
 /* Top page */
+
 .back-button,
 img {
   margin-top: 10px;
@@ -44,24 +47,45 @@ img {
   justify-content: space-between;
 }
 
-/* Galery */
+/* Gallery */
 
-.container-galery {
+.container-photos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 300px;
-  padding-bottom: 50px;
   gap: 5px;
+  grid-auto-flow: dense;
+  padding-bottom: 40px;
 }
 
-.item-galery {
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 
-.item-galery .img-galery {
+.gallery-item .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+ 
+}
+
+.gallery-item .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 50% 50%;
+  cursor: pointer;
+  outline: 1px solid rgba(219, 87, 77, 0.5);
+  outline-offset: -8px;
+  border-radius: 30px;
+  transition: 0.5s ease-in-out;
+}
+
+.gallery-item:hover .image img {
+  transform: scale(1.15);
 }
 
 .l-1 {
