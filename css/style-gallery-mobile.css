@@ -12,10 +12,6 @@ main {
   margin: auto;
 }
 
-/* #nav {
-  border: 1px solid black;
-} */
-
 .nav-link#gallery {
   color: var(--text-primary) !important;
   text-decoration: underline;
