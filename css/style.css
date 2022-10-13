@@ -40,6 +40,13 @@ section {
   margin-top: 50px;
 }
 
+h2 {
+  border-bottom: 1px solid var(--text);
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 18px !important;
+}
+
 /*------------ NavBar-----------------*/
 
 nav.bg-light {
