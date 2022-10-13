@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álbuns</title>
+  <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style-gallery-mobile.css">
+  <link rel="stylesheet" href="./css/style-gallery-desktop.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-light" id="nav">
+    <div class="container-fluid mx-4">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="./img/toggle.svg" alt="">
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html" id="gallery">Álbuns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us-after-login.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html">
+              <button id="anchor-logout" class="btn btn-default ms-3 mt-2">Sair</button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="div-main">
+      <h2>Bem vinda, Natasha</h2>
+      <h3>Seus álbuns</h3>
+
+      <section id="section-cards">
+
+        <div class="div-card">
+          <a href="gallery-2.html">
+            <div class="card-info">
+              <p class="card-date">Jan 13</p>
+              <div class="card-text">
+                <p class="card-title">Casamento</p>
+                <p class="card-local">Recife - Nova Recepções - 2022</p>
+              </div>
+
+            </div>
+
+            <img class="card-img" src="./img/lesbian-wedding.jpg" alt="Foto de casamento" />
+
+          </a>
+        </div>
+
+        <div class="div-card">
+          <a href="">
+            <div class="card-info">
+              <p class="card-date">Jan 29</p>
+              <div class="card-text">
+                <p class="card-title">Ensaio Gestante</p>
+                <p class="card-local">Quixadá - Açude do Cedro - 2022</p>
+              </div>
+  
+            </div>
+  
+            <img class="card-img" src="./img/trans-pregnant.jpg" alt="Foto homem trans gestante" />
+          </a>
+        </div>
+
+        <div class="div-card">
+          <a href="">
+            <div class="card-info">
+              <p class="card-date">Abr 02</p>
+              <div class="card-text">
+                <p class="card-title">15 anos</p>
+                <p class="card-local">Recife - Nova Recepções - 2022</p>
+              </div>
+  
+            </div>
+  
+            <img class="card-img" src="./img/15-anos.png" alt="Foto homem trans gestante" />
+          </a>
+          
+        </div>
+
+        <div class="div-card">
+          <a href="">
+            <div class="card-info">
+              <p class="card-date">Jul 13</p>
+              <div class="card-text">
+                <p class="card-title">Ensaio Newborn</p>
+                <p class="card-local">Caetés - Hope Studio - 2022</p>
+              </div>
+  
+            </div>
+  
+            <img class="card-img" src="./img/newborn.jpg" alt="Foto de um bebê recém-nascido" />
+          </a>
+          
+        </div>
+
+        <div class="div-card">
+          <a href="">
+            <div class="card-info">
+              <p class="card-date">Out 05</p>
+              <div class="card-text">
+                <p class="card-title">Festa do Pedro</p>
+                <p class="card-local">Olinda - Nova Recepções - 2022</p>
+              </div>
+  
+            </div>
+  
+            <img class="card-img" src="./img/birthday.jpg" alt="Foto de aniversário" />
+          </a>
+          
+        </div>
+
+        <div class="div-card">
+          <a href="">
+            <div class="card-info">
+              <p class="card-date">Out 11</p>
+              <div class="card-text">
+                <p class="card-title">Food Stylist</p>
+                <p class="card-local">Olinda - Bar do Peneira - 2022</p>
+              </div>
+  
+            </div>
+  
+            <img class="card-img" src="./img/food.jpg" alt="Foto homem trans gestante" />
+          </a>
+          
+        </div>
+      </section>
+    </div>
+
+    <a id="anchor-estimate" href="contact-us-after-login.html">Solicitar orçamento</a>
+
+
+  </main>
+
+  <footer class="d-flex flex-column align-items-center px-4 gap-2 pt-2">
+    <a href="#nav" class="text-center"><i class="bi bi-caret-up-fill"></i></i>
+      Ir para o topo
+    </a>
+    <div class="d-flex justify-content-between w-100">
+      <p>&copy; 2023 Visual Pic</p>
+      <div class="buttons d-flex gap-3">
+        <a href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="">
+          <i class="bi bi-telephone"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
