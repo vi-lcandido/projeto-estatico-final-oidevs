@@ -1,0 +1,85 @@
+@import url(style.css);
+@import url(variables.css);
+
+main {
+  font-family: "Poppins";
+}
+
+.btn-nav-singup:hover {
+  color: var(--text);
+}
+
+.text-services {
+  height: 200px;
+}
+
+.number-services {
+  color: var(--text-primary);
+  font-size: 24px;
+  margin: 0;
+}
+/*sections*/
+
+.grid-services {
+  text-align: justify;
+  display: grid;
+  grid-template-columns: 30px 3fr 150px;
+  grid-template-rows: 40px 100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  margin: 0;
+}
+
+.articles-services {
+  font-size: 15px;
+  grid-area: 2/2;
+}
+
+.title-services {
+  font-size: 18px;
+}
+
+.text-services {
+  display: flex;
+  color: var(--text);
+  text-decoration: 2px underline;
+  text-underline-offset: 20px;
+  align-items: center;
+  font-size: 30px;
+}
+
+.image-grid-services {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.btn-login:hover {
+  color: var(--text);
+}
+
+.section-anchor {
+  width: 100%;
+  display: flex;
+  height: 200px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.anchor-services-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--text-primary);
+  text-decoration: none;
+  height: 30px;
+  width: 220px;
+  color: var(--text-hl);
+  border-radius: 10px;
+  font-size: 12px;
+}
+.anchor-services-projects:hover {
+  background-color: var(--default-bg);
+  border: 1px solid var(--text-primary);
+  color: var(--text);
+  cursor: pointer;
+}

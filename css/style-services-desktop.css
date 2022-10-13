@@ -1,0 +1,15 @@
+@media only screen and (max-width: 992px) {
+  main {
+    margin: 0 40px;
+  }
+  .grid-services {
+    grid-template-columns: 30px 4fr;
+    grid-template-rows: auto auto;
+  }
+  .title-services {
+    font-size: 19px;
+  }
+  .image-grid-services {
+    display: none;
+  }
+}
