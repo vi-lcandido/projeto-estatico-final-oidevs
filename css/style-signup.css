@@ -89,6 +89,5 @@ input:focus {
 label {
   font-family: "Poppins";
   color: var(--text-secondary);
-  font-size: 12px;
   font-weight: 700;
 }

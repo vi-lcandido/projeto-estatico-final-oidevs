@@ -32,11 +32,6 @@ h3 {
   margin-top: 0;
 }
 
-h2 {
-  text-decoration: 1px underline;
-  text-underline-offset: 10px;
-}
-
 .div-card {
   margin-bottom: 30px;
   max-width: 600px;
