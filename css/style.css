@@ -69,6 +69,7 @@ nav {
 
 .btn.btn-default:hover {
   border: 1px solid var(--text-primary);
+  color: var(--text);
 }
 
 .btn.btn-second {
@@ -77,6 +78,7 @@ nav {
 
 .btn.btn-second:hover {
   border: 1px solid var(--text-primary);
+  color: var(--text);
 }
 
 .nav-link {
