@@ -54,7 +54,7 @@ section{
     opacity: 1.0
 }
 
-.img-album:has(+ .button-album:hover) {
+.img-album:has(+ a > .button-album:hover) {
     cursor: pointer;
     opacity: 1.0
 }
