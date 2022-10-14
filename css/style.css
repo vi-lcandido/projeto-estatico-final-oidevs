@@ -47,6 +47,11 @@ h2 {
   margin-bottom: 18px !important;
 }
 
+.modal-dialog {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
 /*------------ NavBar-----------------*/
 
 nav.bg-light {
