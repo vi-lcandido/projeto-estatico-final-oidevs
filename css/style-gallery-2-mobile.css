@@ -1,0 +1,35 @@
+@media screen and (max-width: 576px) {
+  .container-photos {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .l-1,
+  .l-2 {
+    grid-row: span 2;
+  }
+
+  .c-1,
+  .c-2 {
+    grid-column: span 1;
+  }
+
+  .gallery-item:hover .image img {
+    transform: none;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .container-photos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .l-1,
+  .l-2 {
+    grid-row: span 2;
+  }
+
+  .c-1,
+  .c-2 {
+    grid-column: span 1;
+  }
+}
