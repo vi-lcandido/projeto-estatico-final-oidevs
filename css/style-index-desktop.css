@@ -4,12 +4,23 @@
     justify-content: space-between;
   }
 
+  
+  #carousel .carousel-control-prev {
+    left: -70px;
+  }
+
+  #carousel .carousel-control-next {
+    right: -70px;
+  }
+
+
   #team p {
     max-width: 400px;
   }
 
-  #carrousel {
-    height: 280px !important;
+  #carousel {
+    height: 260px !important;
+    max-width: 430px !important;
   }
 
   .profissional img {
