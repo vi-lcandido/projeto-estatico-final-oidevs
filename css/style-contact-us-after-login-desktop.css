@@ -60,7 +60,11 @@ form input {
 
 form input,
 textarea {
-  border-radius: 11px !important;
+  width: 100%;
+  padding: 0 1rem;
+  border: 1px solid var(--text-secondary);
+  border-radius: 11px;
+  box-shadow: 0px 1px 8px rgba(37, 42, 52, 0.4);
 }
 
 .decoration-textarea {
@@ -94,7 +98,7 @@ textarea {
 /* Bottom */
 
 .logo-bottom {
-  width: 100px;
+  width: 100rem!important;
   height: 115px;
   margin-top: 90px!important;
 }
