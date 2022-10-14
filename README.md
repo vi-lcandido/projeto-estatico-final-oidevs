@@ -62,7 +62,7 @@ Obs: O figma desse projeto foi criado pelas próprias desenvolvedoras servindo d
   <p>Carol Ferraz: <a href="https://github.com/carolferraz">GitHub</b></sub></a><p> 
    <p>Ivina Albuquerque: <a href="https://github.com/Ivina-als">GitHub</b></sub></a><p> 
   <p>Natasha Silveira: <a href="https://github.com/natashasilveira">GitHub</b></sub></a></p>
-  <p>Vitória Cândido: <a href="https://github.com/vi-lcandido">GitHub</b></sub></a><p>
+  <p>Vitória Candido: <a href="https://github.com/vi-lcandido">GitHub</b></sub></a><p>
  
 
 ---
