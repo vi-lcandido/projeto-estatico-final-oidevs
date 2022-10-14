@@ -5,6 +5,7 @@
   .grid-services {
     grid-template-columns: 30px 4fr;
     grid-template-rows: auto auto;
+    grid-column-gap: 10px;
   }
   .title-services {
     font-size: 19px;

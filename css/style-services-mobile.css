@@ -10,7 +10,13 @@ main {
 }
 
 .text-services {
-  height: 200px;
+  height: 100px;
+  display: flex;
+  color: var(--text);
+  text-decoration: 1px underline;
+  text-underline-offset: 12px;
+  align-items: center;
+  border: none;
 }
 
 .number-services {
@@ -18,6 +24,7 @@ main {
   font-size: 24px;
   margin: 0;
 }
+
 /*sections*/
 
 .grid-services {
@@ -39,18 +46,8 @@ main {
   font-size: 18px;
 }
 
-.text-services {
-  display: flex;
-  color: var(--text);
-  text-decoration: 2px underline;
-  text-underline-offset: 20px;
-  align-items: center;
-  font-size: 30px;
-}
-
 .image-grid-services {
   width: 150px;
-  height: 150px;
   border-radius: 10px;
 }
 
@@ -59,7 +56,6 @@ main {
 }
 
 .section-anchor {
-  width: 100%;
   display: flex;
   height: 200px;
   margin-top: 30px;
@@ -75,7 +71,6 @@ main {
   width: 220px;
   color: var(--text-hl);
   border-radius: 10px;
-  font-size: 12px;
 }
 .anchor-services-projects:hover {
   background-color: var(--default-bg);
