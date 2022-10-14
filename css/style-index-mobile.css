@@ -32,9 +32,18 @@ h1 {
   display: none;
 }
 
-#carrousel {
+#carousel {
   height: 230px !important;
 }
+
+#carousel i {
+ color: var(--text) !important;
+}
+
+#carousel .carousel-control-prev, #carousel .carousel-control-next  {
+  display: none;
+}
+
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
   display: flex !important;
@@ -78,5 +87,11 @@ h1 {
 
 .pre-footer {
   margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  #carousel .carousel-control-prev, #carousel .carousel-control-next  {
+    display: block;
+  }
 }
 
