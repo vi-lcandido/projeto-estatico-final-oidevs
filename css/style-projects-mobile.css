@@ -80,8 +80,8 @@ section{
 
 .bottom-pre-fotter {
     flex: 1;
-    width: 100px;
-    height: 100px;
+    width: 15rem;
+    height: 100%;
     margin: 10px 0 10px;
 }
 
