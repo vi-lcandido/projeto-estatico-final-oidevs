@@ -15,7 +15,7 @@
 
 ## :computer: Sobre o projeto
 
-- O projeto consiste em um website de uma empresa multimídia fictícia (VisualPic).
+- O projeto consiste em um website de uma empresa multimídia fictícia (VisualPic) - https://vi-lcandido.github.io/projeto-estatico-final-oidevs/
 - O principal objetivo do projeto é a criação de um site estático para fins educativos.
 
 ---
