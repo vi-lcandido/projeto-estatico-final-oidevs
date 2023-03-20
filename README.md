@@ -55,7 +55,7 @@ Tools used to develop this project:
 
 - Figma's layout: <a href="https://www.figma.com/file/mCrNI8yvDehcIFUb8abTJa/OiDevs---Projeto-Final?node-id=0%3A1" >[Figma]</a> 
 
-Obs: Figma's project was created by the developers themselves, serving as a basis for the development.
+Obs: The Figma's project was created by the developers themselves, serving as a basis for the development.
 
 ---
 
