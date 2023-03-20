@@ -6,7 +6,7 @@
   <a href="#computer-sobre-o-projeto">About Project</a> •
   <a href="#white_check_mark-features">Features</a> •
   <a href="#books-como-executar">How to run</a> •
-  <a href="#hammer-tecnologias">Tecnologies</a> •
+  <a href="#hammer-tecnologias">Technologies</a> •
   <a href="#hammer-utilitários">Utilities</a> •
    <a href="#rocket-devs">Developers</a> •
 </p>
@@ -53,9 +53,9 @@ Tools used to develop this project:
 
 ## :hammer: Utilities
 
-- Figma's layout: <a href="https://www.figma.com/file/mCrNI8yvDehcIFUb8abTJa/OiDevs---Projeto-Final?node-id=0%3A1" >[Figma]</a> 
+- Figma layout: <a href="https://www.figma.com/file/mCrNI8yvDehcIFUb8abTJa/OiDevs---Projeto-Final?node-id=0%3A1" >[Figma]</a> 
 
-Obs: The Figma's project was created by the developers themselves, serving as a basis for the development.
+Obs: The Figma project was created by the developers themselves, serving as a basis for the development.
 
 ---
 
