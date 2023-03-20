@@ -1,63 +1,65 @@
 <h1 align="center">Visual Pic</h1>
 
-<p align="center">Projeto estático final do módulo 1 do Curso de Front-end OiDevs. </p>
+<p align="center"> Final Project of 1 Period  from OiDevs Program - Static Front-end.</p>
 
 <p align="center">
-  <a href="#computer-sobre-o-projeto">Sobre o Projeto</a> •
+  <a href="#computer-sobre-o-projeto">About Project</a> •
   <a href="#white_check_mark-features">Features</a> •
-  <a href="#books-como-executar">Como executar</a> •
-  <a href="#hammer-tecnologias">Tecnologias</a> •
-  <a href="#hammer-utilitários">Utilitários</a> •
-   <a href="#rocket-devs">Devs</a> •
+  <a href="#books-como-executar">How to run</a> •
+  <a href="#hammer-tecnologias">Tecnologies</a> •
+  <a href="#hammer-utilitários">Utilities</a> •
+   <a href="#rocket-devs">Developers</a> •
 </p>
 
 ---
 
-## :computer: Sobre o projeto
+## :computer: About The Project
 
-- O projeto consiste em um website de uma empresa multimídia fictícia (VisualPic) - https://vi-lcandido.github.io/projeto-estatico-final-oidevs/
-- O principal objetivo do projeto é a criação de um site estático para fins educativos.
+- In this project, a website of a fictitious multimedia company was created, called VisualPic - https://vi-lcandido.github.io/projeto-estatico-final-oidevs/
+- The goal of this project was to create a static website for educational purposes.
 
 ---
 
 ## :white_check_mark: Features
-- [x] Sobre a Empresa e equipe
-- [x] Fale conosco
-- [x] Organização dos projetos e serviços da empresa
-- [x] Área do Cliente
+- [x] About the company and the team
+- [x] Contact Us
+- [x] ThThe projects and services offred by the company
+- [x] Client Access
 
 ---
 
-## :books: Como executar
+## :books: How to run
 
-Para visualizar siga os passos abaixo: 
-- Você deve ter o Git Bash instalado em seu computador (clique <a href="https://git-scm.com/download/win">aqui</a>);
-- Crie uma pasta em seu computador;
-- Abra o Git Bash dentro deste diretório;
-- Utilize o comando "git clone https://github.com/vi-lcandido/projeto-estatico-final-oidevs.git".
-- Comece a navegação pela página index.html
+To open the project, follow the steps bellow:
+- You must have Git Bash installed in your computer (click <a href="https://git-scm.com/download/win">here</a>);
+- Create a folder in your computer;
+- Open Git Bash inside this folder;
+- Type this command "git clone https://github.com/vi-lcandido/projeto-estatico-final-oidevs.git".
+- Start the navigation from index.html
+
 
 ---
 
-## :hammer: Tecnologias
+## :hammer: Tecnologies
 
-Ferramentas utilizadas no desenvolvimento do projeto:
+Tools used to develop this project:
 
 - HTML
 - CSS
 - Bootstrap
+- Figma
 
 ---
 
-## :hammer: Utilitários
+## :hammer: Utilities
 
-- Layout do figma: <a href="https://www.figma.com/file/mCrNI8yvDehcIFUb8abTJa/OiDevs---Projeto-Final?node-id=0%3A1" >[Figma]</a> 
+- Figma's layout: <a href="https://www.figma.com/file/mCrNI8yvDehcIFUb8abTJa/OiDevs---Projeto-Final?node-id=0%3A1" >[Figma]</a> 
 
-Obs: O figma desse projeto foi criado pelas próprias desenvolvedoras servindo de base para o desenvolvimento.
+Obs: Figma's project was created by the developers themselves, serving as a basis for the development.
 
 ---
 
-## :rocket: Devs
+## :rocket: Developers
   <p>Amanda Guerra:  <a href="https://github.com/amaendoas">GitHub</a></p>
   <p>Carol Ferraz: <a href="https://github.com/carolferraz">GitHub</b></sub></a><p> 
    <p>Ivina Albuquerque: <a href="https://github.com/Ivina-als">GitHub</b></sub></a><p> 
@@ -66,4 +68,4 @@ Obs: O figma desse projeto foi criado pelas próprias desenvolvedoras servindo d
  
 
 ---
-Desenvolvido com 💜 pelo Grupo 2
+Developed with 💜
