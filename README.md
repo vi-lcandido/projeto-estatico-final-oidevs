@@ -23,7 +23,7 @@
 ## :white_check_mark: Features
 - [x] About the company and the team
 - [x] Contact Us
-- [x] ThThe projects and services offred by the company
+- [x] The projects and services offered by the company
 - [x] Client Access
 
 ---
@@ -40,7 +40,7 @@ To open the project, follow the steps bellow:
 
 ---
 
-## :hammer: Tecnologies
+## :hammer: Technologies
 
 Tools used to develop this project:
 
