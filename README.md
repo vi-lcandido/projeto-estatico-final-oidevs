@@ -1,6 +1,6 @@
 <h1 align="center">Visual Pic</h1>
 
-<p align="center"> Final Project of 1 Period  from OiDevs Program - Static Front-end.</p>
+<p align="center"> Final Project of First Period from OiDevs Program - Static Front-end.</p>
 
 <p align="center">
   <a href="#computer-sobre-o-projeto">About Project</a> •
